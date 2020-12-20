@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: example-website
+  description: This is an example website
+  labels:
+    system: public-websites
+  annotations:
+    example.com/service-discovery: artistweb
+    circleci.com/project-slug: github/example-org/artist-website
+  tags:
+    - java
+spec:
+  type: website
+  lifecycle: production
+  owner: testemail@gmail.com
