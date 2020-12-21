@@ -1,7 +1,6 @@
-apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: example-website
+  displayName: example-website
   description: This is an example website
   labels:
     system: public-websites
