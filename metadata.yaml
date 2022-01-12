@@ -10,7 +10,8 @@ metadata:
   tags:
     - java
 spec:
-  type: website
+  type: 
+    name: website
   template:
     version: 1.0.0
     name: Test Template
